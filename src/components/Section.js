@@ -35,7 +35,7 @@ const Container = ({ id, children, Background = DefaultBackground }) => (
 Container.propTypes = {
   id: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
-  Background: PropTypes.func,
+  Background: PropTypes.func, 
 };
 
 const Header = ({ name, icon = '', label = '' }) => (

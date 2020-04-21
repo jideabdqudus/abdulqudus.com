@@ -7,6 +7,7 @@ import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
 import markdownRenderer from '../components/MarkdownRenderer';
+import pic from "../../media/webdp_5.jpg"
 
 const Background = () => (
   <div>
@@ -33,11 +34,11 @@ const Background = () => (
 );
 
 const ProfilePicture = styled(Image)`
-  border-radius: 50%;
+  border-radius: 10%;
   transition: all 0.25s ease-out;
 
   &:hover {
-    border-radius: 20%;
+    border-radius: 80%;
   }
 `;
 
@@ -81,7 +82,7 @@ const About = () => (
             >
               <Fade right>
                 <ProfilePicture
-                  src={profile.image.src}
+                  src={pic}
                   alt={profile.title}
                   mt={[4, 4, 0]}
                   ml={[0, 0, 1]}

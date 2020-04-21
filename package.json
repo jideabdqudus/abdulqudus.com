@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-mate",
+  "name": "AbdulQudusPortfolio",
   "version": "2.5.2",
-  "description": "Gatsby v2 starter to create a top notch portfolio!",
+  "description": "JidePortfolio",
   "main": "index.js",
   "scripts": {
     "build": "gatsby clean && gatsby build",
@@ -16,21 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmaSuriano/gatsby-starter-mate.git"
+    "url": "git+https://github.com/jideabdqudus"
   },
   "keywords": [
     "gatsby",
-    "starter",
     "contentful",
-    "PWA",
-    "portfolio"
+    "portfolio",
+    "abdul-qudus"
   ],
-  "author": "Ema Suriano",
+  "author": "Jide Abdul-Qudus",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EmaSuriano/gatsby-starter-mate/issues"
-  },
-  "homepage": "https://github.com/EmaSuriano/gatsby-starter-mate#readme",
   "dependencies": {
     "@rebass/preset": "^4.0.5",
     "@tippy.js/react": "^3.1.1",

@@ -60,15 +60,7 @@ const Footer = () => (
             <Fade left>
               <TextFooter fontSize={[2, 3]}>
                 <span>{`${name} Portfolio - Powered by `}</span>
-                <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
-                <span>, </span>
-                <Link href="https://www.contentful.com/" mr={1}>
-                  Contentful
-                </Link>
-                <span> and </span>
-                <Link href="https://www.netlify.com/" mr={1}>
-                  Netlify
-                </Link>
+                <Link href="https://www.gatsbyjs.org/">Gatsby.JS</Link>
                 <span role="img" aria-label="heart">
                   ❤️
                 </span>
