@@ -19,6 +19,10 @@ const plugins = [
       google: {
         families: ['Cabin', 'Open Sans'],
       },
+      name: 'Jide Abdul-Qudus Portfolio',
+      short_name: 'Abdul-Qudus Portfolio',
+      start_url: '/',
+      icon: './public/icons/icon-192x192.png', // This path is relative to the root of the site.
     },
   },
   {
