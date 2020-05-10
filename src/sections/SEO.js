@@ -82,6 +82,6 @@ SEO.propTypes = {
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
   slug: PropTypes.string,
-};
+}; //PropTypes
 
 export default SEO;
