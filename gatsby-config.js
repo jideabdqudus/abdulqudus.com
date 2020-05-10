@@ -64,6 +64,8 @@ module.exports = client.getEntries().then(entries => {
     siteMetadata: {
       title: 'Jide Abdul-Qudus Portfolio',
       author: 'Abdul-Qudus',
+      isMediumUserDefined: !!mediumUser,
+      deterministicBehaviour: !!DETERMINISTIC,
       description: 'Abdul-Qudus is a Web Designer & Programmer, with penchant for Software development & UI/UX development, lives in Lagos, Nigeria.',
       social: {
         twitter: '@jideabdqudus',
