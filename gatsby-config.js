@@ -58,8 +58,16 @@ module.exports = client.getEntries().then(entries => {
 
   return {
     siteMetadata: {
-      isMediumUserDefined: !!mediumUser,
-      deterministicBehaviour: !!DETERMINISTIC,
+      title: 'Jide Abdul-Qudus Portfolio',
+      author: 'Jide Abdul-Qudus',
+      description: 'Jide Abdul-Qudus is a Web Designer & Programmer, with penchant for Software development & UI/UX development, lives in Lagos, Nigeria.',
+      social: {
+        twitter: '@jideabdqudus',
+        github: 'olanetsoft',
+        instagram: 'theqoder'
+      },
+      siteUrl: `https://abdulqudus.com/`,
+      siteImage: `https://avatars0.githubusercontent.com/u/45945474?v=4`
     },
     plugins,
   };
