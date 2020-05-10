@@ -63,8 +63,8 @@ module.exports = client.getEntries().then(entries => {
   return {
     siteMetadata: {
       title: 'Jide Abdul-Qudus Portfolio',
-      author: 'Jide Abdul-Qudus',
-      description: 'Jide Abdul-Qudus is a Web Designer & Programmer, with penchant for Software development & UI/UX development, lives in Lagos, Nigeria.',
+      author: 'Abdul-Qudus',
+      description: 'Abdul-Qudus is a Web Designer & Programmer, with penchant for Software development & UI/UX development, lives in Lagos, Nigeria.',
       social: {
         twitter: '@jideabdqudus',
         github: 'olanetsoft',
