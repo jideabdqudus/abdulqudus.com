@@ -6,9 +6,11 @@ import Projects from '../sections/Projects';
 import Writing from '../sections/Writing';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SEO from '../sections/Seo';
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home - Abdul-Qudus" />
     <Header />
     <Landing />
     <About />
