@@ -19,8 +19,8 @@ const plugins = [
       google: {
         families: ['Cabin', 'Open Sans'],
       },
-      name: 'Jide Abdul-Qudus Portfolio',
-      short_name: 'Abdul-Qudus Portfolio',
+      name: 'Jide Abdul-Qudus',
+      short_name: 'Jide Abdul-Qudus',
       start_url: '/',
       icon: './public/icons/icon-192x192.png', // This path is relative to the root of the site.
     },
@@ -69,7 +69,7 @@ module.exports = client.getEntries().then(entries => {
       description: 'Abdul-Qudus is a Web Designer & Programmer, with penchant for Software development & UI/UX development, lives in Lagos, Nigeria.',
       social: {
         twitter: '@jideabdqudus',
-        github: 'olanetsoft',
+        github: 'jideabdqudus',
         instagram: 'theqoder'
       },
       siteUrl: `https://abdulqudus.com/`,
