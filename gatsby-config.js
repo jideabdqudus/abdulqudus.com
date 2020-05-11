@@ -62,7 +62,7 @@ module.exports = client.getEntries().then(entries => {
 
   return {
     siteMetadata: {
-      title: 'Jide Abdul-Qudus Portfolio',
+      title: 'Jide Abdul-Qudus',
       author: 'Abdul-Qudus',
       isMediumUserDefined: !!mediumUser,
       deterministicBehaviour: !!DETERMINISTIC,
